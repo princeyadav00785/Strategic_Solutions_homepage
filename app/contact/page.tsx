@@ -13,13 +13,13 @@ const contactInfo = [
   {
     title: "EMAIL",
     icon: Mail,
-    content: "info@strategicsolutions.com",
+    content: "info@strategicsolutionsuae.com",
     color: "text-amber-500"
   },
   {
     title: "OFFICE",
     icon: MapPin,
-    content: "230, Rose Palacer Al Barsha Arjan Dubai, UAE",
+    content: "230, Rose Palace Al Barsha Arjan Dubai, UAE",
     color: "text-cyan-500"
   },
   {

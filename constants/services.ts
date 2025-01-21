@@ -16,10 +16,6 @@ export const services = [
     href: '/services/bank-account'
   },
   {
-    name: 'Audit & Assurance',
-    href: '/services/audit'
-  },
-  {
     name: 'Compliance Services',
     href: '/services/compliance'
   },
@@ -34,14 +30,6 @@ export const services = [
   {
     name: 'Business Valuation',
     href: '/services/valuation'
-  },
-  {
-    name: 'IT Services',
-    href: '/services/it'
-  },
-  {
-    name: 'Golden Visa',
-    href: '/services/golden-visa'
   },
   {
     name: 'Relocation Services',

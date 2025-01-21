@@ -4,6 +4,8 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Facebook, Instagram, Linkedin } from 'lucide-react'
+import Logo from '../public/images/latestLogo.jpeg';
+
 
 const mainServices = [
   { name: "Business Setup", href: "/services/business-setup" },
@@ -24,9 +26,9 @@ const aboutLinks = [
 ]
 
 const socialLinks = [
-  { name: "Facebook", icon: Facebook, href: "#" },
+  // { name: "Facebook", icon: Facebook, href: "#" },
   { name: "Instagram", icon: Instagram, href: "https://www.instagram.com/strategic_solutions_uae?igsh=Y2xramxhcnB5OHhy&utm_source=qr" },
-  { name: "LinkedIn", icon: Linkedin, href: "#" }
+  // { name: "LinkedIn", icon: Linkedin, href: "#" }
 ]
 
 export default function Footer() {
@@ -41,8 +43,8 @@ export default function Footer() {
               <a href="tel:+971526520909" className="text-xl font-semibold text-[#001233] hover:underline">
               (+971) 526520909
               </a>
-              <a href="mailto:info@strategicsolutions.com" className="text-xl font-semibold text-[#001233] hover:underline">
-                info@strategicsolutions.com
+              <a href="mailto:info@strategicsolutionsuae.com" className="text-xl font-semibold text-[#001233] hover:underline">
+                info@strategicsolutionsuae.com
               </a>
             </div>
           </div>
@@ -80,31 +82,13 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Subscribe Form */}
-          <div>
-            <h3 className="text-lg font-semibold text-amber-400">SUBSCRIBE NOW</h3>
-            <form className="mt-6">
-              <input
-                type="email"
-                placeholder="Email"
-                className="w-full rounded-lg bg-white/10 px-4 py-3 text-white placeholder-gray-400 backdrop-blur-sm transition-colors focus:bg-white/20 focus:outline-none"
-              />
-              <button
-                type="submit"
-                className="mt-4 w-full rounded-lg bg-amber-400 px-8 py-3 font-semibold text-[#001233] transition-all hover:bg-amber-500"
-              >
-                SUBSCRIBE
-              </button>
-            </form>
-          </div>
-
         </div>
 
         {/* Bottom Bar */}
         <div className="mt-16 flex flex-col items-center justify-between gap-6 border-t border-white/10 pt-8 lg:flex-row">
           <div className="flex items-center gap-4">
             <Image
-              src="https://i.postimg.cc/fWrTg8XQ/image-removebg-preview-21.png"
+              src={Logo}
               alt="Strategic Solutions"
               width={48}
               height={48}

@@ -112,27 +112,6 @@ export const servicesContent: Record<string, ServiceContent> = {
       ]
     }
   },
-  'audit': {
-    name: "Audit & Assurance",
-    shortDescription: "Boost stakeholders' confidence and get a transparent picture of financial statements through our complete range of assurance services.",
-    description: "Audit and Assurance Services are required by all kinds of organisations irrespective of their size and industry and it helps organisations to maintain trust with all the stakeholders. The purpose of an audit is to provide reasonable assurance (by an independent third party) that the financial statements are free from material misstatements. An assurance engagement is a broader type of engagement that provides a level of assurance that is less than absolute. Audit of the financial statements can help organisations in effective decision-making, reduced risk of fraud and error, improved corporate governance, enhanced reliability of financial statements, improved compliance with laws and regulations, and enhanced efficiency and effectiveness of operations.",
-    imageUrl: "https://plus.unsplash.com/premium_photo-1661386158442-868183068c25?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGF1ZGl0JTIwYW5kJTIwYXNzdXJhbmNlfGVufDB8fDB8fHww",
-    offerings: [
-      "Statutory Audit",
-      "Internal Audit",
-      "Compliance Audit",
-      "Forensic Audit",
-      "Information Technology Audit"
-    ],
-    whyStrategicSolutions: {
-      points: [
-        "Arrangement of reports in shortest possible time",
-        "One stop for all kind of audits and assurance services",
-        "Ensuring cost effectiveness through our affiliates audit firms",
-        "Network of affiliates in all free zones and on mainland of the UAE"
-      ]
-    }
-  },
   'compliance': {
     name: "Compliance Services",
     shortDescription: "Adhering to evolving local laws and regulations require continuous updating of compliance checklists to operate successfully in any country.",
@@ -213,60 +192,6 @@ export const servicesContent: Record<string, ServiceContent> = {
         "Strategic Solutions assures confidentiality of your sensitive business information",
         "Strategic Solutions follows a well-planned approach that not only delivers precise valuations but also saves your valuable time and resources",
         "With an experienced team of valuation experts, Strategic Solutions offers comprehensive insights into your business's worth, backed by industry knowledge and expertise"
-      ]
-    }
-  },
-  'it': {
-    name: "IT Services",
-    shortDescription: "Strategic Solutions IT Services, empower businesses to thrive in the digital world through comprehensive and cutting-edge solutions.",
-    description: "Strategic Solutions IT Services, empower businesses to thrive in the digital world through comprehensive and cutting-edge solutions. Our expertise spans a wide array of IT services, tailored to elevate your online presence and drive success. With a focus on web development, Strategic Solutions crafts customised websites that not only reflect your brand's identity but also align with your unique business objectives. From e-commerce development, enabling seamless online transactions, to Content Management Systems (CMS) development, granting you full control over your website's content – we have you covered.",
-    imageUrl: "https://plus.unsplash.com/premium_photo-1664475626607-f3615a009f9a?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aXQlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D",
-    offerings: [
-      "UI/UX Design",
-      "Material Design",
-      "App Optimization",
-      "Hosting Services",
-      "CMS Development",
-      "Domain Registration",
-      "App Store Submission",
-      "Maintenance and Support",
-      "E-Commerce Development",
-      "IOS Application Development",
-      "Android Application Development",
-      "Customised Website Development",
-      "SEO services including, On-Page Optimization, Link Building and SEO Reporting",
-      "Software Testing/Quality Assurance including Functional Testing, Performance Testing, Security Testing and Compatibility Testing"
-    ],
-    whyStrategicSolutions: {
-      points: [
-        "Cutting-edge technology and future-proof solutions",
-        "Expertise and experience across diverse IT domains",
-        "Customised solutions tailored to your unique needs and goals",
-        "Transparent communication and client involvement throughout",
-        "Seamless user experience for engaging and intuitive interfaces",
-        "Reliability and trustworthiness in delivering on time and within budget",
-        "Client satisfaction as our top priority, reflected in long-term partnerships",
-        "Comprehensive end-to-end services for hassle-free project management"
-      ]
-    }
-  },
-  'golden-visa': {
-    name: "Golden Visa",
-    shortDescription: "The Golden Visa presents remarkable opportunities in the UAE, renowned for its vibrancy, peace, and prosperity. This renewable residence visa allows you to live, work, study, and conduct business independently, without the need for a local sponsor.",
-    description: "The Golden Visa presents remarkable opportunities in the UAE, renowned for its vibrancy, peace, and prosperity. This renewable residence visa allows you to live, work, study, and conduct business independently, without the need for a local sponsor. If you aspire to a thriving life in the UAE, our specialised services for obtaining the UAE's Golden Visa are the starting point for your golden future. Embrace the journey towards a brighter tomorrow in the UAE with Strategic Solutions, your trustworthy partner, by your side, to assist you in securing your Golden Visa and unlocking a world of boundless possibilities.",
-    imageUrl: "https://plus.unsplash.com/premium_photo-1663089819902-b4a7321f38e0?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dmlzYXxlbnwwfHwwfHx8MA%3D%3D",
-    offerings: [
-      "Golden visa application processing based on profession",
-      "Golden visa application processing based on property investment",
-      "Golden visa application processing based on business net worth",
-      "Personalised support throughout the process to ensure 100% success of the application"
-    ],
-    whyStrategicSolutions: {
-      points: [
-        "Guidance from immigration specialists at a reasonable fee",
-        "Proven track record of successful golden visa applications",
-        "Tailored solutions to ensure your eligibility for the Golden Visa",
-        "Equipped with the latest requirements of the UAE Government for Golden Visa"
       ]
     }
   },

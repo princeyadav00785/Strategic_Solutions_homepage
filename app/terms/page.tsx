@@ -60,7 +60,7 @@ const sections = [
   },
   {
     title: "Contact Information",
-    content: "If you have any questions about these Terms, please contact us at info@strategicsolutions.com or (+971) 52-403-7229."
+    content: "If you have any questions about these Terms, please contact us at info@strategicsolutionsuae.com or (+971) 52-403-7229."
   }
 ]
 

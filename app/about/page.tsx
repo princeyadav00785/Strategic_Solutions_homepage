@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Briefcase, Diamond, HandHeart, Users2 } from 'lucide-react'
+import BgImage from "../../public/images/hero1.jpg";
 
 const features = [
   {
@@ -47,7 +48,7 @@ export default function AboutPage() {
         {/* Background Image with Gradient Overlay */}
         <div className="relative h-[600px] overflow-hidden">
           <div 
-            className="absolute inset-0 bg-[url('https://i.postimg.cc/gj4xjh2F/image.png')] bg-cover bg-center"
+            className="absolute inset-0 bg-[url('https://plus.unsplash.com/premium_photo-1733266941754-36a495b9bc10?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dWFlJTIwY2l0eSUyMG5pZ2h0JTIwdmlld3xlbnwwfHwwfHx8MA%3D%3D')] bg-cover bg-center"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#001233]/80 via-[#001845]/80 to-[#023E7D]/90" />
           
@@ -129,22 +130,22 @@ export default function AboutPage() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-16 grid gap-8 sm:grid-cols-2"
           >
-            <div className="relative h-[300px] overflow-hidden rounded-2xl">
+            {/* <div className="relative h-[300px] overflow-hidden rounded-2xl">
               <Image
                 src="https://i.postimg.cc/0Ngy8n0K/image.png"
                 alt="Team"
                 fill
                 className="object-cover"
               />
-            </div>
-            <div className="relative h-[300px] overflow-hidden rounded-2xl">
+            </div> */}
+            {/* <div className="relative h-[300px] overflow-hidden rounded-2xl">
               <Image
                 src="https://i.postimg.cc/C17hsgTb/image.png"
                 alt="Business Network"
                 fill
                 className="object-cover"
               />
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </div>

@@ -1,26 +1,15 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Clock, Mail, MapPin, Phone } from 'lucide-react'
+import { Clock, Mail } from 'lucide-react'
 
 const contactInfo = [
-  {
-    title: "PHONE",
-    icon: Phone,
-    content: "(+971) 526520909",
-    color: "text-blue-500"
-  },
+ 
   {
     title: "EMAIL",
     icon: Mail,
     content: "info@strategicsolutionsuae.com",
     color: "text-amber-500"
-  },
-  {
-    title: "OFFICE",
-    icon: MapPin,
-    content: "230, Rose Palace Al Barsha Arjan Dubai, UAE",
-    color: "text-cyan-500"
   },
   {
     title: "HOURS",
@@ -63,7 +52,7 @@ export default function ContactPage() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="group relative overflow-hidden rounded-2xl border-2 border-white/10 bg-[#001233]/80 p-8 backdrop-blur-sm transition-all hover:bg-[#001233]"
               >
-                <div className="flex flex-col items-center text-center">
+                <div className="flex flex-col items-center text-center justify-center ">
                   <info.icon className={`h-12 w-12 ${info.color}`} />
                   <h3 className="mt-4 text-lg font-semibold text-white">
                     {info.title}
@@ -115,7 +104,7 @@ export default function ContactPage() {
                 </summary>
                 <div className="px-8 pb-6">
                   <p className="text-gray-600">
-                    Strategic Solutions has the best customer satisfaction ratio out there. We don't hide anything from you and all pricing is made clear before start of the project and everything comes under a legal framework.
+                    Strategic Solutions has the best customer satisfaction ratio out there. We dont hide anything from you and all pricing is made clear before start of the project and everything comes under a legal framework.
                   </p>
                 </div>
               </details>
@@ -131,7 +120,7 @@ export default function ContactPage() {
               <details className="group">
                 <summary className="flex cursor-pointer items-center justify-between px-8 py-6">
                   <h3 className="text-lg font-semibold text-gray-900">
-                    Are Strategic Solutions' services available to startups as well as established businesses?
+                    Are Strategic Solutions services available to startups as well as established businesses?
                   </h3>
                   <span className="ml-6 flex h-7 w-7 items-center justify-center rounded-full bg-cyan-100 text-cyan-500 group-open:rotate-180">
                     <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -141,7 +130,7 @@ export default function ContactPage() {
                 </summary>
                 <div className="px-8 pb-6">
                   <p className="text-gray-600">
-                    Yes, we cater to both startups and established businesses. Our services are tailored to meet the specific needs of each client, whether you're just starting out or looking to expand your established business.
+                    Yes, we cater to both startups and established businesses. Our services are tailored to meet the specific needs of each client, whether you are just starting out or looking to expand your established business.
                   </p>
                 </div>
               </details>
@@ -183,7 +172,7 @@ export default function ContactPage() {
               <details className="group">
                 <summary className="flex cursor-pointer items-center justify-between px-8 py-6">
                   <h3 className="text-lg font-semibold text-gray-900">
-                    What is the approach used by Strategic Solutions' consultants?
+                    What is the approach used by Strategic Solutions consultants?
                   </h3>
                   <span className="ml-6 flex h-7 w-7 items-center justify-center rounded-full bg-cyan-100 text-cyan-500 group-open:rotate-180">
                     <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -209,7 +198,7 @@ export default function ContactPage() {
               <details className="group">
                 <summary className="flex cursor-pointer items-center justify-between px-8 py-6">
                   <h3 className="text-lg font-semibold text-gray-900">
-                    How experienced are Strategic Solutions' consultants in the UAE business landscape?
+                    How experienced are Strategic Solutions consultants in the UAE business landscape?
                   </h3>
                   <span className="ml-6 flex h-7 w-7 items-center justify-center rounded-full bg-cyan-100 text-cyan-500 group-open:rotate-180">
                     <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -261,7 +250,7 @@ export default function ContactPage() {
               <details className="group">
                 <summary className="flex cursor-pointer items-center justify-between px-8 py-6">
                   <h3 className="text-lg font-semibold text-gray-900">
-                    What is the billing structure of Strategic Solutions' services?
+                    What is the billing structure of Strategic Solutions services?
                   </h3>
                   <span className="ml-6 flex h-7 w-7 items-center justify-center rounded-full bg-cyan-100 text-cyan-500 group-open:rotate-180">
                     <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

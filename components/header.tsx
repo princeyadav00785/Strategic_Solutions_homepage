@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Facebook, Instagram, Linkedin, Menu, X, ChevronDown, ChevronRight } from 'lucide-react'
+import {  Instagram, Menu, X, ChevronDown, ChevronRight } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { services } from '@/constants/services'
 import { useRouter } from 'next/navigation'

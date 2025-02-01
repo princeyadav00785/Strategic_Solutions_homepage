@@ -2,9 +2,7 @@
 
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-import Image from 'next/image'
 import { Briefcase, Diamond, HandHeart, Users2 } from 'lucide-react'
-import BgImage from "../../public/images/hero1.jpg";
 
 const features = [
   {
@@ -33,12 +31,12 @@ const features = [
   }
 ]
 
-const keyPoints = [
-  "Goal oriented",
-  "Risk based response",
-  "Adherence to laws and regulations",
-  "Equipped with latest developments and regulations"
-]
+// const keyPoints = [
+//   "Goal oriented",
+//   "Risk based response",
+//   "Adherence to laws and regulations",
+//   "Equipped with latest developments and regulations"
+// ]
 
 export default function AboutPage() {
   return (
@@ -118,7 +116,7 @@ export default function AboutPage() {
               Strategic Solutions is committed to provide productive and cost effective business solutions to its customers hence, enabling them to achieve their goals through our prestigious team of dedicated experts and associates. With 15 plus years of experience, we have established ourselves as a leading business solution provider i.e. Management Consultancy, Audit and Assurance, Taxation and Compliance.
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              We understand the challenges that entrepreneurs face and are committed to providing tailored solutions that meet the unique needs of each of our clients. Strategic Solutions's team of experts and associates is highly professional in their respective fields which enables us to provide comprehensive cost effective business solutions.
+              We understand the challenges that entrepreneurs face and are committed to providing tailored solutions that meet the unique needs of each of our clients. Strategic Solutions team of experts and associates is highly professional in their respective fields which enables us to provide comprehensive cost effective business solutions.
             </p>
           </motion.div>
 
@@ -161,13 +159,13 @@ export default function AboutPage() {
           >
             <h2 className="text-3xl font-bold text-gray-900">WHY CHOOSE US?</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Strategic Solutions knows how important it is to find a reliable partner to help you with your business needs. Strategic Solutions's aim is to be a One Point Solution (under one roof) for all of its clients irrespective of their size and it is established through:
+              Strategic Solutions knows how important it is to find a reliable partner to help you with your business needs. Strategic Solutions aim is to be a One Point Solution (under one roof) for all of its clients irrespective of their size and it is established through:
             </p>
 
             <ul className="mt-8 space-y-4">
               {[
                 "Ensuring confidentiality of information at all levels",
-                "Tailoring solutions in conformity with clients' objectives",
+                "Tailoring solutions in conformity with clients objectives",
                 "Planning in advance to ensure there is no wastage of resources and time",
                 "Close relationships with our affiliates which have cost effective and best professional advice",
                 "Expert team at Strategic Solutions who have extensive technical knowledge and experience in the field of Audit & Assurance and Management Consultancy i.e. Business Setup, Taxation, Accounting and Bookkeeping, Compliance, and Audit & Assurance etc."

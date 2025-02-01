@@ -1,9 +1,7 @@
 'use client'
-
-import { motion } from 'framer-motion'
 import Link from 'next/link'
 import Image from 'next/image'
-import { Facebook, Instagram, Linkedin } from 'lucide-react'
+import { Instagram } from 'lucide-react'
 import Logo from '../public/images/latestLogo.jpeg';
 
 
@@ -40,8 +38,8 @@ export default function Footer() {
           <div className="flex flex-col items-center justify-between gap-6 lg:flex-row">
             <h2 className="text-3xl font-bold text-[#001233] sm:text-4xl">CONTACT US NOW</h2>
             <div className="flex flex-col items-end gap-2">
-              <a href="tel:+971526520909" className="text-xl font-semibold text-[#001233] hover:underline">
-              (+971) 526520909
+              <a href="" className="text-xl font-semibold text-[#001233] hover:underline">
+              {/* (+971) 526520909 */}
               </a>
               <a href="mailto:info@strategicsolutionsuae.com" className="text-xl font-semibold text-[#001233] hover:underline">
                 info@strategicsolutionsuae.com

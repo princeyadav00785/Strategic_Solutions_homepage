@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { services } from '@/constants/services'
 import { servicesContent } from '@/data/services-content'
-import { ServiceContent } from '@/types/service'
+// import { ServiceContent } from '@/types/service'
 
 interface ServicePageProps {
   params: {

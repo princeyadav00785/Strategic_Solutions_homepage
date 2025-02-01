@@ -1,12 +1,12 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { motion, useAnimation, useInView } from 'framer-motion'
+import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
 
 const CountingNumber = ({ end, duration = 2 }: { end: number; duration?: number }) => {
   const [count, setCount] = useState(0)
-  const controls = useAnimation()
+  // const controls = useAnimation()
   const ref = useRef(null)
   const isInView = useInView(ref)
 

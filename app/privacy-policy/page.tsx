@@ -63,7 +63,7 @@ const sections = [
   },
   {
     title: "Contact Us",
-    content: "If you have any questions about this Privacy Policy, please contact us at info@strategicsolutionsuae.com or by phone at (+971) 52-403-7229."
+    content: "If you have any questions about this Privacy Policy, please contact us at info@strategicsolutionsuae.com."
   }
 ]
 
